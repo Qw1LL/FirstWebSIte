@@ -3,6 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>SecondPage</title>
+    <style>
+        table {
+            height: 40%;
+            left: 10%;
+            margin: 20px auto;
+            overflow-y: scroll;
+            position: static;
+            width: 80%;
+        }
+        thead th {
+            background: #88CCF1;
+            color: #FFF;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        tr {
+            background: #f4f7f8;
+            border-bottom: 1px solid #FFF;
+            margin-bottom: 5px;
+        }
+
+        th, td {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            padding: 20px;
+            font-size: 12px;
+            text-align: left;
+            width: 33.3333%;
+        }
+    </style>
 </head>
 <body>
  <div id="header">
@@ -35,6 +69,42 @@
  <div id="web">
      <a href="https://ru.wikipedia.org/wiki/%D0%9B%D1%8F%D0%B3%D1%83%D1%88%D0%BA%D0%B0_%D0%9F%D0%B8%D0%BF%D0%B0_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC) " title="_blank">Pipa</a>
  </div>
+ <table>
+     <tr>
+         <th scope="col">Second name</th> <!-- Загаловок -->
+         <th scope="col">Name</th>
+         <th scope="col">middle name</th>
+     </tr>
+     <tr>
+         <td>Лягушка</td>
+         <td>Пипа</td>
+         <td>Пепеговна</td>
+     </tr>
+ </table>
+ <p> </p>
+ <table>
+     <thead>
+     <tr>
+         <th></th>
+         <th scope="col">Saturday</th>
+         <th scope="col">Sunday</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+         <th scope="row">Morning</th>
+         <td rowspan="2">Work</td>
+         <td rowspan="3">Relax</td>
+     </tr>
+     <tr>
+         <th scope="row">Afternoon</th>
+     </tr>
+     <tr>
+         <th scope="row">Evening</th>
+         <td>Dinner</td>
+     </tr>
+     </tbody>
+ </table>
 
 </body>
 </html>
