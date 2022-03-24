@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Reg</title>
     <link rel="stylesheet" type="text/css" href="/css/Style.css">
 </head>
-<body>
-<header>
-    <div>
-        <p>Icon</p>
-    </div>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-        </ul>
-    </nav>
-</header>
 
-<form action="/pages/SecondPage.html" method="post">
-    <h1>Login form</h1>
-    <label for="username">Username
-        <input type="text" name="username" id="username">
-    </label>
-    <br>
-    <label for="password">Password
-        <input type="password" name="password" id="password">
-    </label>
-    <br>
-    <input type="submit" value="login">
-</form>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="navigation">
+            <img src="/images/pipa.jpeg" alt="pipa" width="10%">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="formMenu">
+            <form action="./SecondPage.html" method="post">
+                <h1>Login form</h1>
+                <label for="username">Username
+                    <input type="text" name="username" id="username">
+                </label>
+                <br>
+                <label for="password">Password
+                    <input type="password" name="password" id="password">
+                </label>
+                <br>
+                <input type="submit" value="login">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>2022</p>
+    </footer>
+</div>
 
 </body>
 </html>
