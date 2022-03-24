@@ -1,36 +1,26 @@
 html,
 body {
     height: 100%;
-background-color: darkgray
+    background-color: darkgray;
+}
+
+nav {
+    font-size: 25px;
+}
+
+nav li {
+    margin: 0 20px 0 0;
 }
 
 ul {
+    margin-bottom: 2px;
     list-style: none;
     display: flex;
 }
 
-nav li {
-    margin: 0 20px 0 20px;
-}
-
-nav {
-    background-color: darkseagreen;
-    font-size: 25px;
-}
-
-.formMenu{
-    background: antiquewhite;
-    border-radius: 20%;
+footer {
     text-align: center;
-    line-height: 30px;
-    overflow: auto;
-    margin: auto;
-    max-width: 300px;
-    padding-bottom: 100px;
-}
-
-.navigation img {
-    border-radius: 30%;
+    background-color: cornsilk;
 }
 
 .container {
@@ -43,12 +33,26 @@ nav {
     background: azure;
 }
 
+.navigation {
+    display: flex;
+}
+
+.navigation img {
+    margin: 10px 0 0 30px;
+    border-radius: 30%;
+}
+
 .main {
     flex: 1 1 auto;
 }
 
-footer {
+.formMenu{
+    background: antiquewhite;
+    border-radius: 20%;
     text-align: center;
-
-    background-color: cornsilk;
+    line-height: 30px;
+    overflow: auto;
+    margin: auto;
+    max-width: 300px;
+    padding-bottom: 100px;
 }
