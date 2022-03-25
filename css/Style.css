@@ -2,6 +2,13 @@ html,
 body {
     height: 100%;
     background-color: darkgray;
+    overflow: hidden;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 nav {
@@ -9,18 +16,16 @@ nav {
 }
 
 nav li {
-    margin: 0 20px 0 0;
-}
-
-ul {
-    margin-bottom: 2px;
-    list-style: none;
-    display: flex;
+    padding: 10px 10px 10px 10px;
 }
 
 footer {
     text-align: center;
     background-color: cornsilk;
+}
+
+input {
+    outline: none;
 }
 
 .container {
@@ -31,6 +36,15 @@ footer {
     max-width: 85%;
     max-height: 100%;
     background: azure;
+}
+
+.nav-button {
+    list-style: none;
+    display: flex;
+}
+
+.nav-button li:hover {
+    background-color: #88CCF1;
 }
 
 .navigation {
@@ -55,4 +69,8 @@ footer {
     margin: auto;
     max-width: 300px;
     padding-bottom: 100px;
+}
+
+.slide-container {
+
 }
